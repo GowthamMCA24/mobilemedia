@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+}
+header {
+    background-color: black;
+    height: 50px;
+}
+header a{
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+img{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.nav-bar{
+    background-color: aqua;
+}
+.nav-bar ul li{
+    display: inline-block;
+    text-indent: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    font-size:23px;
+}  
+.nav-bar ul li a{
+    text-decoration: none;
+    color:black;
+}
+.nav-bar ul li a:hover{
+    background-color: blueviolet;
+    padding: 10px 10px 10px 10px;
+    border-radius: 14px;
+}
+.image{
+       width:100%;
+       margin-top:0px;
+       position: static;
+       margin-left:px;
+}          
+main h2{
+    color: red;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+main p{
+    text-align: center;
+}
+.one{
+    position: static;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.two{
+position: static;
+    text-align: center;
+    margin-top: -250px;
+}
+.three{
+position: static;
+    margin-left: 1000px;
+    margin-top: -320px;
+}
+.text {
+    margin-top: 220px;
+}
+@media screen and (max-width:1160px){
+   .one{
+    margin-top: 50px;
+    position: static;
+    margin-left: 10px;
+   }
+   .two{
+    margin-top: -300px;
+    position: static;
+   }
+    .three{
+        margin-left: 800px;
+        margin-top:-400px ;
+        position: static;
+        
+    }
+
+}
+@media screen and (max-width:985px){
+    .two{
+        margin-top: -350px;
+        margin-left: 360px;
+        font-size: 24px;
+    }
+    .three{
+        margin-left: 80px;
+        margin-top: 30px;
+        font-size: 24px;
+    }
+    .one{
+        margin-left: 80px;
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:860px){
+    .nav-bar ul li{
+        display: block;
+    }
+    .one{
+        text-align: center;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .two{
+    
+        text-align: center;
+        font-size: 18px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .three{
+        text-align:center ;
+        font-size: 18px;
+    
+        margin-left: 30px;
+    }
+}
